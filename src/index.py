@@ -4,8 +4,6 @@ from PIL import ExifTags
 from os import listdir
 from os.path import isfile, join
 
-
-
 # Get a list of all the files from the specified location
 # with an accepted file extension.
 def getFileList(location: str, extensions: list[str] = ["jpg"]) -> list[str]:
